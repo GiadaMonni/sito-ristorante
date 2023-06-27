@@ -1,0 +1,47 @@
+
+    :root{
+        --bordeaux: rgb(87, 42, 62);
+        --grigio: rgb(172, 172, 172);
+        --brd-chiaro: rgb(234, 213, 234);
+    }
+            html,
+            body {
+            
+            position: relative;
+            height: 100%;
+            }
+
+            body {
+            background:  var(--bordeaux);;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+            }
+        h1{ 
+            position: absolute;
+            top: 240px;
+            font-family: Real Stone;
+            font-size: 100px;
+            text-shadow: 2px 2px 3px var(--brd-chiaro);
+        }
+        .swiper {
+            width: 100%;
+            height: 100%;
+            border: solid 60px var(--grigio);
+            transform-style: preserve-3d;
+        }
+    
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+        }
+    
+        .swiper-slide img {
+            display: block;
+            width: 200vh;
+            height: 85vh;
+        }
